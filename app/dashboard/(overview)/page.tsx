@@ -10,6 +10,10 @@ import {
 import CardWrapper from "../../ui/dashboard/cards";
 import { CardsSkeleton } from "../../ui/skeletons";
 
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
+
 export default async function Page() {
   return (
     <main>
