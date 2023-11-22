@@ -9,6 +9,7 @@ import {
 } from "@/app/ui/skeletons";
 import CardWrapper from "../../ui/dashboard/cards";
 import { CardsSkeleton } from "../../ui/skeletons";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Dashboard",
